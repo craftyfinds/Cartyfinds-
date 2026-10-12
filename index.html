@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover useful home, kitchen, beauty, fashion and lifestyle finds at CartyFinds.">
+  <meta name="theme-color" content="#082746">
+  <title>CartyFinds_ | Find Better Products, Happier You!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">
+    <div class="announce-left">
+      <span>🚚 Free Shipping on Orders Above ₹499</span><i></i>
+      <span>🛡️ Secure Payments</span><i></i>
+      <span>🔄 Easy Returns</span>
+    </div>
+    <div class="social">Follow Us: <a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="YouTube">▶</a><a href="#" aria-label="WhatsApp">◉</a></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="CartyFinds home">
+      <span class="brand-cart">🛒</span><span>carty<span class="orange">finds</span><b class="orange">_</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a class="nav-active" href="#">Home</a><a href="#products">Shop</a>
+      <div class="nav-dropdown"><button id="categoryMenu">Categories⌄</button>
+        <div class="dropdown-panel">
+          <a href="#products" data-category-link="Home & Kitchen">Home & Kitchen</a>
+          <a href="#products" data-category-link="Electronics">Electronics</a>
+          <a href="#products" data-category-link="Beauty & Personal Care">Beauty & Personal Care</a>
+          <a href="#products" data-category-link="Fashion & Accessories">Fashion & Accessories</a>
+          <a href="#products" data-category-link="Mobile Accessories">Mobile Accessories</a>
+        </div>
+      </div>
+      <a href="#about">About Us</a><a href="#contact">Contact</a>
+    </nav>
+    <form class="search" id="searchForm" role="search">
+      <input id="searchInput" type="search" placeholder="Search products..." aria-label="Search products">
+      <button aria-label="Search">⌕</button>
+    </form>
+    <button class="icon-button account-btn" id="accountBtn" aria-label="Account">♙</button>
+    <button class="icon-button cart-button" id="cartButton" aria-label="Open shopping cart">🛒<span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO CARTYFINDS_</p>
+        <h1>Find Better Products,<br><span>Happier You!</span></h1>
+        <p class="hero-description">Discover trending, useful and amazing products<br class="desktop-break"> at the best prices — all in one place!</p>
+        <a class="primary-button" href="#products">Shop Now <span>→</span></a>
+        <div class="hero-benefits">
+          <div><span class="benefit-icon">🚚</span><b>Fast Delivery<br>Across India</b></div>
+          <div><span class="benefit-icon">♢</span><b>Secure<br>Payments</b></div>
+          <div><span class="benefit-icon">↶</span><b>Easy<br>Returns</b></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Shopping cart illustration">
+        <div class="handwritten">Good<br>Things<br>Inside! <span>↙</span></div>
+        <div class="cart-scene">
+          <div class="package package-one"></div><div class="package package-two"></div><div class="package package-three"></div>
+          <div class="cart-handle"></div><div class="cart-basket"><div class="basket-lines"></div></div>
+          <div class="cart-base"></div><div class="wheel wheel-one"></div><div class="wheel wheel-two"></div>
+          <div class="tag"><span>🛒</span><b>carty<span>finds_</span></b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories section-wrap" aria-label="Shop by category">
+      <a class="category-tile selected" href="#products" data-category-link="Home & Kitchen"><span>🏠</span><b>Home & Kitchen</b></a>
+      <a class="category-tile" href="#products" data-category-link="Electronics"><span>🎧</span><b>Electronics</b></a>
+      <a class="category-tile" href="#products" data-category-link="Beauty & Personal Care"><span>🧴</span><b>Beauty &amp; Personal Care</b></a>
+      <a class="category-tile" href="#products" data-category-link="Fashion & Accessories"><span>👕</span><b>Fashion &amp; Accessories</b></a>
+      <a class="category-tile" href="#products" data-category-link="Mobile Accessories"><span>📱</span><b>Mobile Accessories</b></a>
+      <a class="category-tile" href="#products" data-category-link="Toys & Kids"><span>🧸</span><b>Toys &amp; Kids</b></a>
+      <a class="category-tile" href="#products" data-category-link="Automotive"><span>🚘</span><b>Automotive</b></a>
+      <a class="category-tile" href="#products" data-category-link="All"><span>⊞</span><b>More</b></a>
+    </section>
+
+    <section class="products-section section-wrap" id="products">
+      <div class="section-heading"><h2><span>🔥</span> Featured Products</h2><div class="product-controls"><label for="sortSelect" class="sr-only">Sort products</label><select id="sortSelect"><option value="featured">Featured</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="name">Name A–Z</option></select><a href="#products" id="viewAll">View All →</a></div></div>
+      <div class="active-filter" id="activeFilter"></div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="no-results" id="noResults" hidden>No products found. Try another search or category.</p>
+    </section>
+
+    <section class="trust-strip">
+      <div><span>◇</span><p><b>Best Quality</b><small>Trendy &amp; useful products</small></p></div>
+      <div><span>🚚</span><p><b>Fast Delivery</b><small>Across India</small></p></div>
+      <div><span>♢</span><p><b>Secure Payments</b><small>Payment options shown at checkout</small></p></div>
+      <div><span>♡</span><p><b>Customer Support</b><small>We're here to help!</small></p></div>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter-title"><span>➤</span><b>Stay Updated!</b></div>
+      <p>Get the latest deals, offers and new arrivals directly to your inbox.</p>
+      <form id="newsletterForm"><label for="emailInput" class="sr-only">Email address</label><input id="emailInput" type="email" placeholder="Enter your email address" required><button type="submit">Subscribe</button></form>
+      <span id="newsletterMessage" role="status"></span>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-grid">
+      <div class="footer-about"><a class="brand footer-brand" href="#"><span class="brand-cart">🛒</span><span>carty<span class="orange">finds</span><b class="orange">_</b></span></a><p>Find useful everyday products and little things that make life easier.</p></div>
+      <div><h3>Quick Links</h3><a href="#">Home</a><a href="#products">Shop All</a><a href="#about">About Us</a><a href="#contact">Contact</a></div>
+      <div><h3>Customer Care</h3><a href="#shipping">Shipping Policy</a><a href="#returns">Returns &amp; Refunds</a><a href="#faq">FAQs</a><a href="#privacy">Privacy Policy</a></div>
+      <div id="about"><h3>About CartyFinds_</h3><p>We’re building a simple, convenient shopping experience for everyday essentials.</p><p><b>Contact:</b> Add your business email here</p></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> CartyFinds_. All rights reserved.</span><span>Prices and product details are editable sample content.</span></div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-heading"><h2>Your Cart</h2><button id="closeCart" aria-label="Close cart">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-summary"><div><span>Subtotal</span><b id="cartSubtotal">₹0</b></div><small>Shipping and final charges are confirmed before payment.</small><button class="primary-button checkout-button" id="checkoutButton">Continue to WhatsApp Checkout</button><p class="checkout-note" id="checkoutNote">Set your WhatsApp number in script.js to enable order messages.</p></div>
+  </aside>
+
+  <dialog id="productDialog" class="product-dialog"><button class="dialog-close" id="closeProductDialog" aria-label="Close product details">×</button><div id="productDetail"></div></dialog>
+  <dialog id="accountDialog" class="simple-dialog"><button class="dialog-close" id="closeAccountDialog" aria-label="Close">×</button><h2>Welcome to CartyFinds_</h2><p>Customer accounts need a secure backend. For now, you can browse products and use the cart.</p><button class="primary-button" id="accountOk">Continue Shopping</button></dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>

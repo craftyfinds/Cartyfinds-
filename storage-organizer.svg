@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-label="Storage Organizer">
+<rect width="240" height="220" fill="#d6eee1"/>
+<circle cx="28" cy="25" r="45" fill="#fff" opacity=".25"/><circle cx="216" cy="194" r="55" fill="#fff" opacity=".25"/>
+<rect x="45" y="48" width="150" height="138" rx="10" fill="#9ac8ae"/><rect x="55" y="58" width="130" height="35" rx="5" fill="#e7f1e8"/><rect x="55" y="101" width="130" height="35" rx="5" fill="#e7f1e8"/><rect x="55" y="144" width="130" height="30" rx="5" fill="#e7f1e8"/><circle cx="75" cy="76" r="8" fill="#f1b49c"/><circle cx="108" cy="118" r="8" fill="#e4b765"/><circle cx="145" cy="159" r="8" fill="#c6a7d6"/>
+<text x="120" y="211" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#26364a" opacity=".7">Storage Organizer</text></svg>

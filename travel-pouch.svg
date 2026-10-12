@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-label="Travel Pouch">
+<rect width="240" height="220" fill="#f9e3cf"/>
+<circle cx="28" cy="25" r="45" fill="#fff" opacity=".25"/><circle cx="216" cy="194" r="55" fill="#fff" opacity=".25"/>
+<rect x="48" y="65" width="90" height="115" rx="13" fill="#e97d46" transform="rotate(-8 93 122)"/><rect x="115" y="50" width="75" height="125" rx="12" fill="#e9b77b" transform="rotate(8 152 112)"/><path d="M63 82 L126 72 M128 70 L181 78" stroke="#fff1dc" stroke-width="5"/><rect x="80" y="90" width="35" height="8" rx="4" fill="#fff1dc" transform="rotate(-8 98 94)"/>
+<text x="120" y="211" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#26364a" opacity=".7">Travel Pouch</text></svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-label="Soap Holder">
+<rect width="240" height="220" fill="#cdeee6"/>
+<circle cx="28" cy="25" r="45" fill="#fff" opacity=".25"/><circle cx="216" cy="194" r="55" fill="#fff" opacity=".25"/>
+<rect x="45" y="105" width="160" height="85" rx="12" fill="#202c33"/><rect x="62" y="70" width="65" height="65" rx="10" fill="#a5dfd0"/><rect x="145" y="52" width="35" height="85" rx="9" fill="#68bda9"/><rect x="151" y="35" width="23" height="20" rx="4" fill="#293d40"/><rect x="48" y="150" width="155" height="9" fill="#53636a"/>
+<text x="120" y="211" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#26364a" opacity=".7">Soap Holder</text></svg>

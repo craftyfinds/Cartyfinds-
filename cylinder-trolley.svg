@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-label="Cylinder Trolley">
+<rect width="240" height="220" fill="#f9d6cb"/>
+<circle cx="28" cy="25" r="45" fill="#fff" opacity=".25"/><circle cx="216" cy="194" r="55" fill="#fff" opacity=".25"/>
+<rect x="80" y="35" width="82" height="135" rx="25" fill="#ef4536"/><ellipse cx="121" cy="40" rx="41" ry="15" fill="#ff7560"/><rect x="111" y="18" width="20" height="24" rx="4" fill="#a8adb0"/><path d="M88 75 L153 75 M87 120 L155 120" stroke="#ff9c8e" stroke-width="6"/><path d="M65 165 L178 165 L190 185 L55 185Z" fill="#343e46"/><circle cx="78" cy="192" r="12" fill="#27333d"/><circle cx="168" cy="192" r="12" fill="#27333d"/>
+<text x="120" y="211" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#26364a" opacity=".7">Cylinder Trolley</text></svg>

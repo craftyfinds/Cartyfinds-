@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-label="Beauty Organizer">
+<rect width="240" height="220" fill="#f4dfe4"/>
+<circle cx="28" cy="25" r="45" fill="#fff" opacity=".25"/><circle cx="216" cy="194" r="55" fill="#fff" opacity=".25"/>
+<rect x="50" y="90" width="140" height="95" rx="12" fill="#9cbca3"/><rect x="62" y="75" width="116" height="20" rx="5" fill="#dce7dc"/><rect x="70" y="42" width="22" height="38" rx="5" fill="#e6a9b8"/><rect x="105" y="30" width="25" height="50" rx="5" fill="#f1c96e"/><rect x="143" y="48" width="20" height="32" rx="5" fill="#a6b8d5"/><rect x="63" y="120" width="115" height="10" rx="4" fill="#e2eee3"/><rect x="63" y="148" width="115" height="10" rx="4" fill="#e2eee3"/>
+<text x="120" y="211" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#26364a" opacity=".7">Beauty Organizer</text></svg>

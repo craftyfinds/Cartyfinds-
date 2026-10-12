@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CartyFinds_ Admin</title><link rel="stylesheet" href="admin.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script defer src="admin.js"></script></head>
+<body><main class="shell"><header><a href="../index.html">← Storefront</a><span class="brand">carty<span>finds</span>_ / ADMIN</span><button id="logout" hidden>Sign out</button></header>
+<section id="setupNotice" class="notice">Setup required: create <code>admin/config.js</code> from <code>config.example.js</code> and add your Supabase project URL and publishable key.</section>
+<section id="loginPanel" class="panel"><h1>Admin login</h1><p>Use the admin account created in Supabase Authentication.</p><form id="loginForm"><label>Email<input id="email" type="email" required autocomplete="username"></label><label>Password<input id="password" type="password" required autocomplete="current-password"></label><button class="primary">Sign in</button><p id="loginMsg" role="status"></p></form></section>
+<section id="appPanel" hidden><nav class="tabs"><button data-tab="products" class="active">Products</button><button data-tab="orders">Orders</button><button data-tab="import">Meesho URL import</button></nav>
+<div id="status" role="status"></div>
+<section id="productsTab" class="panel"><div class="title-row"><h1>Products</h1><button id="newProduct" class="primary">+ New product</button></div><div id="productList"></div>
+<form id="productForm" hidden><h2 id="formTitle">New product</h2><input id="productId" type="hidden"><div class="fields">
+<label>Title<input id="title" required maxlength="180"></label><label>Category<input id="category" required value="Home & Kitchen"></label>
+<label>Price (₹)<input id="price" type="number" min="0" step=".01" required></label><label>Supplier cost (₹)<input id="cost" type="number" min="0" step=".01" value="0"></label>
+<label>Stock (leave blank if unknown)<input id="stock" type="number" min="0" step="1"></label><label>Image URL (permission required)<input id="image" type="url"></label>
+<label class="wide">Description<textarea id="description" rows="4"></textarea></label><label class="wide">Supplier product URL<input id="supplierUrl" type="url"></label>
+<label class="check"><input id="published" type="checkbox"> Publish on storefront</label></div><div class="actions"><button class="primary">Save product</button><button type="button" id="cancelEdit">Cancel</button></div></form></section>
+<section id="ordersTab" class="panel" hidden><h1>Orders</h1><p>Order management table. Customer checkout integration must be connected before real customer orders appear.</p><div id="orderList"></div></section>
+<section id="importTab" class="panel" hidden><h1>Meesho product URL</h1><p>Paste a product link, then review and enter the details you are authorized to use. This starter validates the URL but does not scrape Meesho or bypass access controls.</p><form id="importForm"><label>Meesho product URL<input id="meeshoUrl" type="url" placeholder="https://www.meesho.com/..." required></label><button class="primary">Validate URL</button><p id="importMsg" role="status"></p><button type="button" id="useUrl" hidden>Use URL in product form</button></form></section>
+</section><footer>Secure setup: RLS enabled; only user IDs explicitly listed in <code>admin_users</code> can manage data.</footer></main></body></html>
